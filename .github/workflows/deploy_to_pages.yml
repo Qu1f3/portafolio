@@ -20,7 +20,7 @@ jobs:
     enviroment:
       name: github-pages
       url: $ {{ steps.github-pages.outputs.url }}
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Clonar el Repositorio
         uses: actions/checkout@v4
