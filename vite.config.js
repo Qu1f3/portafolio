@@ -28,7 +28,7 @@ const getInput = () => {
 export default defineConfig(
     {
         appType: 'mpa',
-        base: process.env.DEPLOY_BASE_URL,
+        base: '/portafolio/',
         build: {
             rollupOptions: {
                 input: getInput()
