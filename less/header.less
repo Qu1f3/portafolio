@@ -1,0 +1,28 @@
+header {
+    .display1();
+    background-color: @dark-bg;
+    padding: @size0 @size2;
+    position: relative;
+    justify-content: space-between;
+
+    .titulo h1 {
+        color: @primary-text-color;
+        font-size: @size2;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: @size2;
+
+        li a {
+            color: @primary-text-color;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                color: @background-color2;
+            }
+        }
+    }
+}
