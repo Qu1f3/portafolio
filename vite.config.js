@@ -36,7 +36,7 @@ export default defineConfig(
             minify: true
         },
         plugins: [
-           // htmlPurge({}),
+           /// htmlPurge({}),
             ViteMinifyPlugin(),
         ]
     }
